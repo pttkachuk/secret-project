@@ -1,4 +1,5 @@
 import './App.css';
+import Hero from './components/Hero/Hero';
 import Navigation from './components/Navigation/Navigation';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className='App'>
 
       <Navigation />
+      <Hero />
 
 
     </div>
