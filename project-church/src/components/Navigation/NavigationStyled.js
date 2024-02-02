@@ -1,25 +1,36 @@
 import styled from 'styled-components';
 
 export const StyledNavContainer = styled.div`
-  //width: 100%;
-  //max-width: 1440px;
   display: flex;
   padding: 10px;
   `;
 
 export const Cont = styled.div`
 width: 100%;
-outline: 1px solid black;
-//padding: 10px;
-//background-color: #808000;
-//border-radius: 5px;
-//box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+//outline: 1px solid black;
 `
 
+export const LogoDiv = styled.button`
+display: flex;
+background-color: transparent;
+//outline: 1px solid black;
+transition: 0.3s;
+border: none;
+cursor: pointer;
+&:hover{
+  color: #6cb4ee;
+}
+ &:hover h2{
+  color:inherit;
+}
+
+`;
+
 export const Home = styled.h2`
-//margin-left: 35px ;
+margin-left: 10px;
 font-family: Montserrat;
 font-weight: 600;
+transition: 0.3s;
 color: black;
 `
 
@@ -33,8 +44,6 @@ gap: 15px;
 `;
 
 export const NavItem = styled.li`
-//padding: 5px;
-//outline: 1px solid red;
 `;
 
 export const NavLink = styled.a`
