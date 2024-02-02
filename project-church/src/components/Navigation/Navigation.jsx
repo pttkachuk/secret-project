@@ -1,8 +1,9 @@
 import React from "react";
-//import { LiaBibleSolid } from "react-icons/lia";
+import { PiChurchLight } from "react-icons/pi";
 import {
   Cont,
   Home,
+  LogoDiv,
   NavItem,
   NavLink,
   NavList,
@@ -10,25 +11,37 @@ import {
 } from "./NavigationStyled";
 
 const Navigation = () => {
+  const handleClick = () => {
+    console.log("clicked btn");
+  };
   return (
     <nav>
       <Cont>
         <StyledNavContainer>
-          <Home>Home</Home>
+          <LogoDiv onClick={handleClick}>
+            <PiChurchLight size={26} />
+            <Home>Parola di Fede</Home>
+          </LogoDiv>
           <NavList>
             <NavItem>
-              <NavLink href="#">Who we are</NavLink>
+              <NavLink href="#">Chi siamo</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Our service</NavLink>
+              <NavLink href="#">Culti</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">How to reach us</NavLink>
+              <NavLink href="#">Dove siamo</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Where we are</NavLink>
+              <NavLink href="#">Contatti</NavLink>
             </NavItem>
           </NavList>
+          {/* <select>
+            <option>ita</option>
+            <option>ukr</option>
+            <option>rus</option>
+            <option>eng</option>
+          </select> */}
         </StyledNavContainer>
       </Cont>
     </nav>
