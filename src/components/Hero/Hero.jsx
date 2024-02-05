@@ -25,7 +25,7 @@ const Hero = () => {
         <ShapeBlobSix></ShapeBlobSix>
       </DivC>
       <HeroTitle>
-        Chiesa Evangelica
+        Chiesa Evangelica Ucraina
         <br />
         Bergamo
       </HeroTitle>
