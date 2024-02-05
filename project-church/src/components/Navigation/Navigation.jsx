@@ -33,7 +33,7 @@ const Navigation = () => {
               <NavLink href="#">Dove siamo</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Contatti</NavLink>
+              <NavLink href="#">Contattaci</NavLink>
             </NavItem>
           </NavList>
           {/* <select>
