@@ -18,7 +18,7 @@ transition: 0.3s;
 border: none;
 cursor: pointer;
 &:hover{
-  color: #FFBF00;
+  color: #FDDA00;
 }
  &:hover h2{
   color:inherit;
@@ -53,6 +53,6 @@ color: #fff;
 text-decoration: none;
 transition: all 0.3s ease-in-out;
 &:hover{
-  color: #FFBF00
+  color: #FDDA00
 }
 `;
