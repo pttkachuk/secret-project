@@ -1,8 +1,8 @@
 {
-  "name": "project-church",
+  "name": "secret-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pttkachuk.github.io/secret-project",
+  "homepage": "https://pttkachuk.github.io/secret-project/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
