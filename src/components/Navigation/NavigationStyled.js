@@ -18,7 +18,7 @@ transition: 0.3s;
 border: none;
 cursor: pointer;
 &:hover{
-  color: #6cb4ee;
+  color: #FFBF00;
 }
  &:hover h2{
   color:inherit;
@@ -51,8 +51,8 @@ font-family: Montserrat;
 font-weight: 400;
 color: #fff;
 text-decoration: none;
-transition: 0.3s;
+transition: all 0.3s ease-in-out;
 &:hover{
-  color: #6cb4ee
+  color: #FFBF00
 }
 `;
