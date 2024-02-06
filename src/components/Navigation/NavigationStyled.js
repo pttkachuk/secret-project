@@ -18,7 +18,7 @@ transition: 0.3s;
 border: none;
 cursor: pointer;
 &:hover{
-  color: green;
+  color: #FFBF00;
 }
  &:hover h2{
   color:inherit;
