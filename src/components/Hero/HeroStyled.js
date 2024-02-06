@@ -23,7 +23,7 @@ export const Container = styled.div`
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	//justify-content: center;
+	justify-content: center;
 	overflow: hidden;
 	position: relative;
 `;
@@ -34,29 +34,29 @@ export const DivC = styled.div`
 	position:absolute;
 	width: 100%;
 	filter: blur(40px);
-/*   background: rgba(255,255,255,0.1) */
+   //background: rgba(255,255,255,0.1) 
 `;
 
 export const ShapeBlob = styled.div`
-	background:#26C3F9;
+	background:#FDDA00;
     position: absolute;
-	height: 60px;
-	width: 80px;
+	height: 190px;
+	width: 120px;
 	border-radius: 40% 50% 30% 40%;
   	animation: 
 		${transformAnimation} 18s ease-in-out infinite both alternate,
 		${movementOneAnimation} 12s ease-in-out infinite both;
 	opacity:.7;
-	left: 75%;
+	left: 73%;
 	top: 40%;
 `;
 
 export const ShapeBlobOne = styled.div`
-    background:#0085FF;
+    background:#FDDA00;
     position: absolute;
 	height: 150px;
 	width: 170px;
-	left: 45%;
+	left: 40%;
 	top: 41%;
 	transform: rotate(-180deg);
 	animation: ${transformAnimation} 8s ease-in-out infinite both alternate, ${movementTwoAnimation} 20s ease-in-out infinite both;
@@ -67,7 +67,7 @@ export const ShapeBlobTwo = styled.div`
 	background:#4EAEFF;
 	height: 150px;
 	width: 150px;
-	left: 60%;
+	left: 55%;
 	top: 40%;
 	transform: rotate(-180deg);
 	animation: ${transformAnimation} 10s ease-in-out infinite both alternate, ${movementTwoAnimation} 10s ease-in-out infinite both;`;
@@ -84,7 +84,7 @@ export const ShapeBlobThree = styled.div`
 
 export const ShapeBlobFour = styled.div`
     position: absolute;
-    background:#4EAEFF;
+    background:#FDDA00;
 	height: 100px;
 	width: 80px;
 	left: 5%;
@@ -96,8 +96,8 @@ export const ShapeBlobFive = styled.div`
     position: absolute;
 	background:#0085FF;
 	height: 100px;
-	width: 80px;
-	left: 480px;
+	width: 85px;
+	left: 30%;
 	top: 40%;
 	transform: rotate(-180deg);
 	animation: ${transformAnimation} 12s ease-in-out infinite both alternate, ${movementTwoAnimation} 18s ease-in-out infinite both;`;
@@ -107,12 +107,79 @@ export const ShapeBlobSix = styled.div`
     background:#0EAFFF;
 	height: 70px;
 	width: 100px;
-	right: 200px;
+	right: 13%;
 	top: 40%;
 	transform: rotate(-180deg);
 	animation: ${transformAnimation} 5s ease-in-out infinite both alternate, ${movementTwoAnimation} 5s ease-in-out infinite both;
     `;
+export const ShapeBlobSeven = styled.div`
+    position: absolute;
+	background:#0EAFFF;
+	height: 100px;
+	width: 75px;
+	left: 11%;
+	top: 35%;
+	transform: rotate(-180deg);
+	animation: ${transformAnimation} 9s ease-in-out infinite both alternate, ${movementTwoAnimation} 17s ease-in-out infinite both;  `;
 
+export const ShapeBlobEight = styled.div`
+    position: absolute;
+	background:#FDDA00;
+	height: 120px;
+	width: 95px;
+	left: 25%;
+	top: 45%;
+	transform: rotate(-180deg);
+	animation: ${transformAnimation} 7s ease-in-out infinite both alternate, ${movementTwoAnimation} 23s ease-in-out infinite both;  `;
+
+export const ShapeBlobNine = styled.div`
+    position: absolute;
+	background:#0EAFFF;
+	height: 120px;
+	width: 95px;
+	left: 34%;
+	top: 45%;
+	transform: rotate(-180deg);
+	animation: ${transformAnimation} 9s ease-in-out infinite both alternate, ${movementTwoAnimation} 19s ease-in-out infinite both;  `;
+
+export const ShapeBlobTen = styled.div`
+    position: absolute;
+    background:#FDDA00;
+	height: 100px;
+	width: 80px;
+	left: 7%;
+	top: 47%;
+	transform: rotate(-180deg);
+	animation: ${transformAnimation} 12s ease-in-out infinite both alternate, ${movementTwoAnimation} 15s ease-in-out infinite both;`;
+
+export const ShapeBlobEleven = styled.div`
+    position: absolute;
+	background:#FDDA00;
+	height: 150px;
+	width: 150px;
+	left: 62%;
+	top: 42%;
+	transform: rotate(-180deg);
+	animation: ${transformAnimation} 8s ease-in-out infinite both alternate, ${movementTwoAnimation} 13s ease-in-out infinite both;`;
+export const ShapeBlobTwelve = styled.div`
+    position: absolute;
+    background:#0EAFFF;
+	height: 100px;
+	width: 80px;
+	right: 7%;
+	top: 47%;
+	transform: rotate(-180deg);
+	animation: ${transformAnimation} 12s ease-in-out infinite both alternate, ${movementTwoAnimation} 15s ease-in-out infinite both;`;
+export const ShapeBlobThirteen = styled.div`
+    position: absolute;
+    background:#0EAFFF;
+	height: 100px;
+	width: 80px;
+	right: 44%;
+	top: 47%;
+	transform: rotate(-180deg);
+	animation: ${transformAnimation} 10s ease-in-out infinite both alternate, ${movementTwoAnimation} 19s ease-in-out infinite both;`;
+//////////////////////////////////////////////
 export const HeroTitle = styled.h1`
 	font-family: Montserrat;
 	font-size: 4em;
@@ -124,5 +191,5 @@ export const HeroTitle = styled.h1`
 	z-index: 4;
 	text-shadow: 2px 3px 15px rgba(0,0,0,.15);`;
 
-//////////////////////////////////////////////
+
 
