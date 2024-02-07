@@ -11,7 +11,11 @@ import {
   SocialDiv,
   Youtube,
 } from "./FooterStyled";
-import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebookSquare,
+  FaYoutubeSquare,
+  FaInstagramSquare,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -36,21 +40,21 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaInstagram size={23} />
+                <FaInstagramSquare size={23} />
               </Instagram>
               <Facebook
                 href="https://www.facebook.com/slovoveriparoladifedebergamo/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaFacebook size={23} />
+                <FaFacebookSquare size={23} />
               </Facebook>
               <Youtube
                 href="https://www.youtube.com/@SlovoViryItaly"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaYoutube size={23} />
+                <FaYoutubeSquare size={23} />
               </Youtube>
             </IconsContainer>
           </SocialDiv>
