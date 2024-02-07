@@ -52,7 +52,7 @@ margin-top: auto;
 `;
 
 export const Instagram = styled.a`
-color: #fff;
+color: #d3d3d3;
 transition: all 0.3s ease-in-out;
 cursor: pointer;
 &:hover{
@@ -61,7 +61,7 @@ cursor: pointer;
 `;
 
 export const Facebook = styled.a`
-color: #fff;
+color: #d3d3d3;
 transition: all 0.3s ease-in-out;
 cursor: pointer;
 &:hover{
@@ -70,7 +70,7 @@ cursor: pointer;
 `;
 
 export const Youtube = styled.a`
-color: #fff;
+color: #d3d3d3;
 transition: all 0.3s ease-in-out;
 cursor: pointer;
 &:hover{
