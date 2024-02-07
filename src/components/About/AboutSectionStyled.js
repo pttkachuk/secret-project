@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AboutWrapper = styled.div`
-//outline: 1px solid red;
+outline: 1px solid red;
 `;
 
 export const AboutTitle = styled.h2`
