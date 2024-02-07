@@ -7,6 +7,7 @@ import {
   FooterWrapper,
   IconsContainer,
   Instagram,
+  SocialDesc,
   SocialDiv,
   Youtube,
 } from "./FooterStyled";
@@ -28,28 +29,28 @@ const Footer = () => {
             </CopyrightText>
           </div>
           <SocialDiv>
-            <FooterDesc>Nostri social</FooterDesc>
+            <SocialDesc>Nostri social</SocialDesc>
             <IconsContainer>
               <Instagram
                 href="https://www.instagram.com/bergamo_church/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaInstagram size={24} />
+                <FaInstagram size={23} />
               </Instagram>
               <Facebook
                 href="https://www.facebook.com/slovoveriparoladifedebergamo/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaFacebook size={24} />
+                <FaFacebook size={23} />
               </Facebook>
               <Youtube
                 href="https://www.youtube.com/@SlovoViryItaly"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaYoutube size={24} />
+                <FaYoutube size={23} />
               </Youtube>
             </IconsContainer>
           </SocialDiv>
