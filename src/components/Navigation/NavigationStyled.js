@@ -1,19 +1,30 @@
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
+
+export const StyledHeader = styled.header`
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+padding-top: 35px;
+`;
 
 export const StyledNavContainer = styled.div`
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
   display: flex;
-  padding: 35px 10px 10px 10px;
+  justify-content: space-between;
+  //padding: 35px 40px 10px 40px;
   `;
 
 export const Cont = styled.div`
-width: 100%;
-//outline: 1px solid white;
-`
+`;
 
-export const LogoDiv = styled.button`
+export const LogoDiv = styled(NavLink)`
 margin: 0;
 padding: 0;
 display: flex;
+text-decoration: none;
 background-color: transparent;
 color: #fff;
 transition: 0.3s;
@@ -37,7 +48,7 @@ color: #fff;
 `
 
 export const NavList = styled.ul`
-margin-left: auto;
+//margin-left: auto;
 display: flex;
 align-items: center;
 text-align: center;
@@ -48,7 +59,7 @@ gap: 15px;
 export const NavItem = styled.li`
 `;
 
-export const NavLink = styled.a`
+export const StyledNavLink = styled(NavLink)`
 font-family: Montserrat;
 font-weight: 400;
 color: #fff;
