@@ -1,16 +1,27 @@
-import './App.css';
-import AboutSection from './components/About/AboutSection';
+import { Suspense } from 'react';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
-import Hero from './components/Hero/Hero';
 import Navigation from './components/Navigation/Navigation';
+import Loader from './components/Loader';
+import { lazy } from 'react';
+
+const Home = lazy(() => import('./pages/HomePage'));
 
 function App() {
   return (
-    <div className='App'>
+    <div>
       <Navigation />
-      <Hero />
-      <AboutSection />
-      <Footer />
+      <main>
+        <Suspense fallback={<Loader />}>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='*' element={<Navigate to="/" replace />} />
+          </Routes>
+        </Suspense>
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
