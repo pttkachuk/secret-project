@@ -24,7 +24,7 @@ const Footer = () => {
         <FooterCont>
           <div>
             <FooterDesc>
-              Jesu ti ama.
+              Gesu ti ama.
               <br />
               Ricordati cosa Lui ha fatto per te.
             </FooterDesc>
