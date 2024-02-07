@@ -14,10 +14,7 @@ export const StyledNavContainer = styled.div`
   max-width: 1440px;
   display: flex;
   justify-content: space-between;
-  //padding: 35px 40px 10px 40px;
-  `;
-
-export const Cont = styled.div`
+  padding: 0 20px 0 20px;
 `;
 
 export const LogoDiv = styled(NavLink)`
