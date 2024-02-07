@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const FooterWrapper = styled.div`
-height: 100px;
-padding: 20px 0 20px 0;
-outline: 1px solid red;
+height: 150px;
+padding: 40px 0 40px 0;
+//outline: 1px solid red;
 `;
 
 export const FooterDesc = styled.p`
@@ -34,14 +34,21 @@ font-size: 14px;
 export const IconsContainer = styled.div`
 padding: 0;
 margin: 0;
-margin-top: 20px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 `;
-
+export const SocialDesc = styled.p`
+margin: 0;
+padding: 0;
+margin-bottom: 5px;
+font-family: Montserrat;
+color: #d3d3d3;
+font-weight: 300;
+font-size: 14px;
+`;
 export const SocialDiv = styled.div`
-//margin-top:auto;
+margin-top: auto;
 `;
 
 export const Instagram = styled.a`

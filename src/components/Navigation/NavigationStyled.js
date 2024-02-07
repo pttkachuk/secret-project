@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledNavContainer = styled.div`
   display: flex;
-  padding: 10px;
+  padding: 35px 10px 10px 10px;
   `;
 
 export const Cont = styled.div`
@@ -11,6 +11,8 @@ width: 100%;
 `
 
 export const LogoDiv = styled.button`
+margin: 0;
+padding: 0;
 display: flex;
 background-color: transparent;
 color: #fff;
