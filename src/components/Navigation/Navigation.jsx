@@ -20,13 +20,13 @@ const Navigation = () => {
         </LogoDiv>
         <NavList>
           <NavItem>
-            <StyledNavLink to="">Chi siamo</StyledNavLink>
+            <StyledNavLink to="/">Chi siamo</StyledNavLink>
           </NavItem>
           <NavItem>
             <StyledNavLink to="">Culti</StyledNavLink>
           </NavItem>
           <NavItem>
-            <StyledNavLink to="">Dove siamo</StyledNavLink>
+            <StyledNavLink to="/location">Dove siamo</StyledNavLink>
           </NavItem>
           <NavItem>
             <StyledNavLink to="">Contattaci</StyledNavLink>
