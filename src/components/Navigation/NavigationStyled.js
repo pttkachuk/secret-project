@@ -6,6 +6,7 @@ box-sizing: border-box;
 display: flex;
 justify-content: center;
 padding-top: 35px;
+//outline: 1px solid red;
 `;
 
 export const StyledNavContainer = styled.div`
