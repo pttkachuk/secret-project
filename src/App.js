@@ -6,6 +6,7 @@ import Loader from './components/Loader';
 import { lazy } from 'react';
 
 const Home = lazy(() => import('./pages/HomePage'));
+const Location = lazy(() => import('./pages/MapPage'));
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Suspense fallback={<Loader />}>
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/location' element={<Location />} />
             <Route path='*' element={<Navigate to="/" replace />} />
           </Routes>
         </Suspense>
