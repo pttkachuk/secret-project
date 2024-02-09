@@ -17,9 +17,9 @@ const MapSection = () => {
             width="600"
             height="300"
             style={{ border: "transparent", borderRadius: 5 }}
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></GoogleMapIframe>
         </GoogleMap>
       </StyledMapWrapper>
