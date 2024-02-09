@@ -29,7 +29,7 @@ const Footer = () => {
               Ricordati cosa Lui ha fatto per te.
             </FooterDesc>
             <CopyrightText>
-              © 2024. Chiesa Evangelica Bergamo. Tutti i diritti riservati.
+              © 2024. Parola di Fede. Bergamo. Tutti i diritti riservati.
             </CopyrightText>
           </div>
           <SocialDiv>
