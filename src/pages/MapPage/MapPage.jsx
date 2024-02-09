@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import MapSection from "../../components/Map/MapSection";
-import Ticker from "../../components/Ticker/Ticker";
+//import Ticker from "../../components/Ticker/Ticker";
 import { MapPageDesc, MapPageTitle, TextDiv } from "./MapPageStyles";
 import { IoIosArrowDown } from "react-icons/io";
 
@@ -24,7 +24,6 @@ const MapPage = () => {
       </TextDiv>
 
       <MapSection />
-      <Ticker />
     </motion.main>
   );
 };
