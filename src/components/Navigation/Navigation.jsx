@@ -29,7 +29,7 @@ const Navigation = () => {
             <StyledNavLink to="/location">Dove siamo</StyledNavLink>
           </NavItem>
           <NavItem>
-            <StyledNavLink to="">Contattaci</StyledNavLink>
+            <StyledNavLink to="/contacts">Contattaci</StyledNavLink>
           </NavItem>
         </NavList>
       </StyledNavContainer>
