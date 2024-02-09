@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 export const FooterWrapper = styled.div`
 height: 150px;
@@ -29,6 +30,10 @@ font-family: Montserrat;
 color: #d3d3d3;
 font-weight: 300;
 font-size: 14px;
+
+& :hover{
+    color: #FDDA00;
+}
 `;
 
 export const IconsContainer = styled.div`
@@ -76,4 +81,10 @@ cursor: pointer;
 &:hover{
     color: #FF0000;
 }
+`;
+
+export const LinkToContacts = styled(NavLink)`
+color: #d3d3d3;
+text-decoration:none;
+transition: all 0.3s ease-in-out;
 `;

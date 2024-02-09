@@ -7,6 +7,7 @@ import {
   FooterWrapper,
   IconsContainer,
   Instagram,
+  LinkToContacts,
   SocialDesc,
   SocialDiv,
   Youtube,
@@ -29,7 +30,8 @@ const Footer = () => {
               Ricordati cosa Lui ha fatto per te.
             </FooterDesc>
             <CopyrightText>
-              © 2024. Parola di Fede. Bergamo. Tutti i diritti riservati.
+              © 2024. Parola di Fede. Bergamo.{" "}
+              <LinkToContacts to="/contacts">Contattaci</LinkToContacts>
             </CopyrightText>
           </div>
           <SocialDiv>
