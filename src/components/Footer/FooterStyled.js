@@ -56,7 +56,7 @@ color: #d3d3d3;
 transition: all 0.3s ease-in-out;
 cursor: pointer;
 &:hover{
-    color: #515BD4;
+    color: #FDDA00;
 }
 `;
 
