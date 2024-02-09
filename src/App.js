@@ -8,6 +8,7 @@ import { lazy } from 'react';
 
 const Home = lazy(() => import('./pages/HomePage/HomePage'));
 const Location = lazy(() => import('./pages/MapPage/MapPage'));
+const Contacts = lazy(() => import('./pages/ContactPage/ContactPage'));
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Routes location={location} key={location.pathname}>
             <Route path='/' element={<Home />} />
             <Route path='/location' element={<Location />} />
+            <Route path='/contacts' element={<Contacts />} />
             <Route path='*' element={<Navigate to="/" replace />} />
           </Routes>
         </Suspense>
