@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import MailForm from "../../components/MailForm/MailForm";
 
 const ContactPage = () => {
   return (
@@ -8,7 +9,7 @@ const ContactPage = () => {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 1, ease: [0.6, -0.05, 0.01, 0.99] }}
     >
-      ContactPage
+      <MailForm />
     </motion.main>
   );
 };
