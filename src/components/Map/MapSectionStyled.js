@@ -10,17 +10,17 @@ export const StyledMapWrapper = styled.div`
   box-sizing: border-box;
   width: 100%;
   max-width: 1440px;
-  height: 350px;
   padding: 20px;
-//outline: 1px solid red;
+  //filter: blur(1px);
+  //outline: 1px solid red;
 `;
 
 export const GoogleMap = styled.div`
 margin-left: auto;
+margin-right: auto;
   width: 100%;
   max-width: 600px;
 `;
 
 export const GoogleMapIframe = styled.iframe`
-
 `;
