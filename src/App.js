@@ -5,6 +5,7 @@ import Navigation from './components/Navigation/Navigation';
 import Loader from './components/Loader';
 import { AnimatePresence } from "framer-motion";
 import { lazy } from 'react';
+import Ticker from './components/Ticker/Ticker';
 
 const Home = lazy(() => import('./pages/HomePage/HomePage'));
 const Location = lazy(() => import('./pages/MapPage/MapPage'));
@@ -25,10 +26,11 @@ function App() {
             <Route path='*' element={<Navigate to="/" replace />} />
           </Routes>
         </Suspense>
-        <footer>
-          <Footer />
-        </footer>
       </AnimatePresence>
+      <footer>
+        <Ticker />
+        <Footer />
+      </footer>
 
     </div>
   );
