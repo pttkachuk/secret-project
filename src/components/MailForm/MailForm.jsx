@@ -5,7 +5,12 @@ import {
   ContactsSection,
   ContactsTitle,
   FormDiv,
+  InputDiv,
   MessageTitleDiv,
+  StyledInput,
+  StyledLabel,
+  StyledSendBtn,
+  StyledTextArea,
 } from "./MailFormStyled";
 //import { validationSchema } from "../../helpers/validationSchema";
 
@@ -21,17 +26,50 @@ const MailForm = () => {
           </ContactsDesc>
         </MessageTitleDiv>
         <FormDiv>
-          <input type="text" name="name" id="name" placeholder="name" />
-          <input type="email" name="email" id="email" placeholder="email" />
-          <textarea
-            placeholder="scrivici un messaggio"
+          <InputDiv>
+            <StyledInput
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Nome"
+              required
+            />
+            <StyledLabel htmlFor="name" className="form_label">
+              Nome
+            </StyledLabel>
+          </InputDiv>
+          <InputDiv>
+            <StyledInput
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+              required
+            />
+            <StyledLabel htmlFor="email" className="form_label">
+              E-mail
+            </StyledLabel>
+          </InputDiv>
+          <InputDiv>
+            <StyledInput
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="Telefono"
+              required
+            />
+            <StyledLabel htmlFor="tel" className="form_label">
+              Telefono
+            </StyledLabel>
+          </InputDiv>
+          <StyledTextArea
+            placeholder="Scrivi un messaggio"
             name="message"
             id="message"
-            cols="30"
-            rows="10"
-            style={{ resize: "vertical" }}
-          ></textarea>
-          <button type="submit">Invia</button>
+            cols="35"
+            rows="8"
+          ></StyledTextArea>
+          <StyledSendBtn type="submit">Invia</StyledSendBtn>
         </FormDiv>
       </ContactsDiv>
     </ContactsSection>
