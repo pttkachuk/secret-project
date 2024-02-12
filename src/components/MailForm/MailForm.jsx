@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import { Flip, ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import {
   ContactsDesc,
   ContactsDiv,
@@ -12,9 +14,37 @@ import {
   StyledSendBtn,
   StyledTextArea,
 } from "./MailFormStyled";
-//import { validationSchema } from "../../helpers/validationSchema";
 
 const MailForm = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [text, setText] = useState("");
+
+  const clearForm = () => {
+    setName("");
+    setEmail("");
+    setPhoneNumber("");
+    setText("");
+  };
+
+  const SendMessage = () => {
+    if (!name || !email || !phoneNumber || !text) {
+      toast.info("Compilare tutti i campi", {
+        position: "top-center",
+        autoClose: 3000,
+        theme: "dark",
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+      });
+    } else {
+      alert(JSON.stringify([name, email, phoneNumber, text], null, 2));
+      clearForm();
+    }
+  };
+
   return (
     <ContactsSection>
       <ContactsDiv>
@@ -31,6 +61,10 @@ const MailForm = () => {
               type="text"
               name="name"
               id="name"
+              value={name}
+              onChange={(event) => {
+                setName(event.target.value);
+              }}
               placeholder="Nome"
               required
             />
@@ -43,6 +77,10 @@ const MailForm = () => {
               type="email"
               name="email"
               id="email"
+              value={email}
+              onChange={(event) => {
+                setEmail(event.target.value);
+              }}
               placeholder="E-mail"
               required
             />
@@ -55,6 +93,10 @@ const MailForm = () => {
               type="tel"
               name="tel"
               id="tel"
+              value={phoneNumber}
+              onChange={(event) => {
+                setPhoneNumber(event.target.value);
+              }}
               placeholder="Telefono"
               required
             />
@@ -66,12 +108,30 @@ const MailForm = () => {
             placeholder="Scrivi un messaggio"
             name="message"
             id="message"
+            value={text}
+            onChange={(event) => {
+              setText(event.target.value);
+            }}
             cols="35"
             rows="8"
           ></StyledTextArea>
-          <StyledSendBtn type="submit">Invia</StyledSendBtn>
+          <StyledSendBtn type="button" onClick={SendMessage}>
+            Invia
+          </StyledSendBtn>
         </FormDiv>
       </ContactsDiv>
+      <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        hideProgressBar={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+        transition={Flip}
+      />
     </ContactsSection>
   );
 };
