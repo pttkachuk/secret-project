@@ -126,6 +126,7 @@ border: 0;
 border-bottom: 1px solid #d3d3d3;
 color: #fff;
 margin-bottom: 15px;
+transition: 0.2s;
 
 &::placeholder{
     color: #d3d3d3;
@@ -146,6 +147,7 @@ color: #fff;
 font-family: Montserrat;
 font-weight: 400;
 font-size: 14px;
+transition: 0.3s;
 cursor: pointer;
 
 &:hover{
