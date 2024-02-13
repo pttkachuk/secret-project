@@ -9,11 +9,18 @@ import {
   FormDiv,
   InputDiv,
   MessageTitleDiv,
+  PhoneDiv,
+  PhoneDivTitle,
+  PhoneTitleDiv,
   StyledInput,
   StyledLabel,
+  StyledPhoneItem,
+  StyledPhoneLink,
+  StyledPhoneTitle,
   StyledSendBtn,
   StyledTextArea,
 } from "./MailFormStyled";
+//import BubbleTrouble from "../BubbleTrouble/BubbleTrouble";
 
 const MailForm = () => {
   const [name, setName] = useState("");
@@ -120,6 +127,33 @@ const MailForm = () => {
           </StyledSendBtn>
         </FormDiv>
       </ContactsDiv>
+      <PhoneDiv>
+        <div>
+          <ul>
+            <StyledPhoneItem>
+              <StyledPhoneTitle>
+                <b>Pastore</b>
+                <br />
+                Petro Gryfel
+              </StyledPhoneTitle>
+              <StyledPhoneLink href="tel:+393272229054">
+                +39 327 222 9054
+              </StyledPhoneLink>
+            </StyledPhoneItem>
+            <StyledPhoneItem>
+              <StyledPhoneTitle>
+                <b>Responsabile finanziario</b> <br /> Ivan Tkachuk
+              </StyledPhoneTitle>
+              <StyledPhoneLink href="tel:+393273541039">
+                +39 327 354 1039
+              </StyledPhoneLink>
+            </StyledPhoneItem>
+          </ul>
+        </div>
+        <PhoneTitleDiv>
+          <PhoneDivTitle>Oppure chiamaci direttamente!</PhoneDivTitle>
+        </PhoneTitleDiv>
+      </PhoneDiv>
       <ToastContainer
         position="top-center"
         autoClose={3000}
