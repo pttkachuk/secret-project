@@ -7,20 +7,25 @@ import {
   ContactsSection,
   ContactsTitle,
   FormDiv,
+  Gradient,
   InputDiv,
   MessageTitleDiv,
   PhoneDiv,
   PhoneDivTitle,
+  PhoneImage,
   PhoneTitleDiv,
   StyledInput,
   StyledLabel,
   StyledPhoneItem,
   StyledPhoneLink,
+  StyledPhoneList,
   StyledPhoneTitle,
   StyledSendBtn,
   StyledTextArea,
 } from "./MailFormStyled";
 //import BubbleTrouble from "../BubbleTrouble/BubbleTrouble";
+import Petro_Gr from "../../images/Petro_Gr.jpg";
+import Ivan_Tk from "../../images/Ivan_Tk.jpg";
 
 const MailForm = () => {
   const [name, setName] = useState("");
@@ -127,28 +132,36 @@ const MailForm = () => {
           </StyledSendBtn>
         </FormDiv>
       </ContactsDiv>
+      <Gradient />
       <PhoneDiv>
         <div>
-          <ul>
+          <StyledPhoneList>
             <StyledPhoneItem>
-              <StyledPhoneTitle>
-                <b>Pastore</b>
-                <br />
-                Petro Gryfel
-              </StyledPhoneTitle>
-              <StyledPhoneLink href="tel:+393272229054">
-                +39 327 222 9054
-              </StyledPhoneLink>
+              <PhoneImage src={Petro_Gr} alt="Petro Gryfel" />
+              <div>
+                <StyledPhoneTitle>
+                  <b>Pastore</b>
+                  <br />
+                  Petro Gryfel
+                </StyledPhoneTitle>
+                <StyledPhoneLink href="tel:+000000000000">
+                  +00 000 000 0000
+                </StyledPhoneLink>
+              </div>
             </StyledPhoneItem>
             <StyledPhoneItem>
-              <StyledPhoneTitle>
-                <b>Responsabile finanziario</b> <br /> Ivan Tkachuk
-              </StyledPhoneTitle>
-              <StyledPhoneLink href="tel:+393273541039">
-                +39 327 354 1039
-              </StyledPhoneLink>
+              <PhoneImage src={Ivan_Tk} alt="Ivan Tkachuk" />
+              <div>
+                <StyledPhoneTitle>
+                  <b>Responsabile finanziario</b>
+                  <br /> Ivan Tkachuk
+                </StyledPhoneTitle>
+                <StyledPhoneLink href="tel:+000000000000">
+                  +00 000 000 0000
+                </StyledPhoneLink>
+              </div>
             </StyledPhoneItem>
-          </ul>
+          </StyledPhoneList>
         </div>
         <PhoneTitleDiv>
           <PhoneDivTitle>Oppure chiamaci direttamente!</PhoneDivTitle>
