@@ -137,7 +137,12 @@ const MailForm = () => {
         <div>
           <StyledPhoneList>
             <StyledPhoneItem>
-              <PhoneImage src={Petro_Gr} alt="Petro Gryfel" />
+              <PhoneImage
+                src={Petro_Gr}
+                alt="Petro Gryfel"
+                width={120}
+                height={120}
+              />
               <div>
                 <StyledPhoneTitle>
                   <b>Pastore</b>
@@ -150,7 +155,12 @@ const MailForm = () => {
               </div>
             </StyledPhoneItem>
             <StyledPhoneItem>
-              <PhoneImage src={Ivan_Tk} alt="Ivan Tkachuk" />
+              <PhoneImage
+                src={Ivan_Tk}
+                alt="Ivan Tkachuk"
+                width={120}
+                height={120}
+              />
               <div>
                 <StyledPhoneTitle>
                   <b>Responsabile finanziario</b>

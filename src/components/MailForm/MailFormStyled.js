@@ -3,8 +3,9 @@ import styled, { keyframes } from 'styled-components';
 export const ContactsSection = styled.section`
 box-sizing: border-box;
 display: flex;
+flex-direction: column;
+align-items: center;
 justify-content: center;
-flex-wrap: wrap;
 `;
 
 export const ContactsDiv = styled.div`
