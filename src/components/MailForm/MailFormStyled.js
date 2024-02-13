@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const ContactsSection = styled.section`
 box-sizing: border-box;
@@ -250,7 +250,52 @@ margin-bottom: 5px;
 `;
 
 export const StyledPhoneItem = styled.li`
-//outline: 1px solid red;
-margin-bottom: 10px;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 20px;
 padding: 10px;
+`;
+
+export const StyledPhoneList = styled.ul`
+margin: 0;
+padding: 0;
+//outline: 1px solid red;
+display: flex;
+flex-direction: column;
+gap: 20px;
+`;
+
+export const PhoneImage = styled.img`
+display: block;
+object-fit: cover;
+height: 100%;
+width: 100%;
+max-width: 120px;
+max-height: 120px;
+border-radius:50%;
+`;
+
+/////////////////////////////////////////////////////////////
+
+const rotateAnimation = keyframes`
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+`;
+
+export const Gradient = styled.div`
+  --size: 250px;
+  --speed: 50s;
+  --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+
+  width: var(--size);
+  height: var(--size);
+  filter: blur(calc(var(--size) / 5));
+  background-image: linear-gradient(#4EAEFF, #FDDA00);
+  animation: ${rotateAnimation} var(--speed) var(--easing) alternate infinite;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 `;
