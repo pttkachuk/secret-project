@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/secret-project/static/css/main.e8c30944.css",
-    "main.js": "/secret-project/static/js/main.79f7ed79.js",
+    "main.js": "/secret-project/static/js/main.890061f7.js",
     "static/js/404.d9df5ad4.chunk.js": "/secret-project/static/js/404.d9df5ad4.chunk.js",
     "static/js/357.4faeffaf.chunk.js": "/secret-project/static/js/357.4faeffaf.chunk.js",
-    "static/css/405.b1f07969.chunk.css": "/secret-project/static/css/405.b1f07969.chunk.css",
-    "static/js/405.1a796a09.chunk.js": "/secret-project/static/js/405.1a796a09.chunk.js",
+    "static/css/65.124232cb.chunk.css": "/secret-project/static/css/65.124232cb.chunk.css",
+    "static/js/65.7c9ddfe2.chunk.js": "/secret-project/static/js/65.7c9ddfe2.chunk.js",
     "static/js/787.b9ab6d2c.chunk.js": "/secret-project/static/js/787.b9ab6d2c.chunk.js",
     "static/js/667.5ece4eb8.chunk.js": "/secret-project/static/js/667.5ece4eb8.chunk.js",
     "static/js/330.845d5dd5.chunk.js": "/secret-project/static/js/330.845d5dd5.chunk.js",
@@ -13,17 +13,17 @@
     "static/media/Petro_Gr.jpg": "/secret-project/static/media/Petro_Gr.d9a45b34b3e2d6aead30.jpg",
     "index.html": "/secret-project/index.html",
     "main.e8c30944.css.map": "/secret-project/static/css/main.e8c30944.css.map",
-    "main.79f7ed79.js.map": "/secret-project/static/js/main.79f7ed79.js.map",
+    "main.890061f7.js.map": "/secret-project/static/js/main.890061f7.js.map",
     "404.d9df5ad4.chunk.js.map": "/secret-project/static/js/404.d9df5ad4.chunk.js.map",
     "357.4faeffaf.chunk.js.map": "/secret-project/static/js/357.4faeffaf.chunk.js.map",
-    "405.b1f07969.chunk.css.map": "/secret-project/static/css/405.b1f07969.chunk.css.map",
-    "405.1a796a09.chunk.js.map": "/secret-project/static/js/405.1a796a09.chunk.js.map",
+    "65.124232cb.chunk.css.map": "/secret-project/static/css/65.124232cb.chunk.css.map",
+    "65.7c9ddfe2.chunk.js.map": "/secret-project/static/js/65.7c9ddfe2.chunk.js.map",
     "787.b9ab6d2c.chunk.js.map": "/secret-project/static/js/787.b9ab6d2c.chunk.js.map",
     "667.5ece4eb8.chunk.js.map": "/secret-project/static/js/667.5ece4eb8.chunk.js.map",
     "330.845d5dd5.chunk.js.map": "/secret-project/static/js/330.845d5dd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8c30944.css",
-    "static/js/main.79f7ed79.js"
+    "static/js/main.890061f7.js"
   ]
 }
