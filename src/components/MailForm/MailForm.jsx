@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Flip, ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import {
@@ -23,15 +23,20 @@ import {
   StyledSendBtn,
   StyledTextArea,
 } from "./MailFormStyled";
-//import BubbleTrouble from "../BubbleTrouble/BubbleTrouble";
 import Petro_Gr from "../../images/Petro_Gr.jpg";
 import Ivan_Tk from "../../images/Ivan_Tk.jpg";
+import emailjs from "@emailjs/browser";
 
 const MailForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [text, setText] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    emailjs.init("ddcE72HyXFwm_kWLi");
+  }, []);
 
   const clearForm = () => {
     setName("");
@@ -40,7 +45,10 @@ const MailForm = () => {
     setText("");
   };
 
-  const SendMessage = () => {
+  const SendMessage = async () => {
+    const serviceId = "service_fog40os";
+    const templateId = "template_qlau7y5";
+
     if (!name || !email || !phoneNumber || !text) {
       toast.info("Compilare tutti i campi", {
         position: "top-center",
@@ -52,8 +60,23 @@ const MailForm = () => {
         draggable: true,
       });
     } else {
-      alert(JSON.stringify([name, email, phoneNumber, text], null, 2));
-      clearForm();
+      try {
+        setLoading(true);
+        await emailjs.send(serviceId, templateId, {
+          from_name: name,
+          from_email: email,
+          from_phone: phoneNumber,
+          message: text,
+        });
+        alert("email successfully sent check inbox");
+      } catch (error) {
+        console.log(error);
+      } finally {
+        clearForm();
+        setLoading(false);
+      }
+      //alert(JSON.stringify([name, email, phoneNumber, text], null, 2));
+      //clearForm();
     }
   };
 
@@ -127,7 +150,7 @@ const MailForm = () => {
             cols="35"
             rows="8"
           ></StyledTextArea>
-          <StyledSendBtn type="button" onClick={SendMessage}>
+          <StyledSendBtn type="button" onClick={SendMessage} disabled={loading}>
             Invia
           </StyledSendBtn>
         </FormDiv>
