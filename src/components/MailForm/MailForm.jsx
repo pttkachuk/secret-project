@@ -68,15 +68,12 @@ const MailForm = () => {
           from_phone: phoneNumber,
           message: text,
         });
-        alert("email successfully sent check inbox");
       } catch (error) {
         console.log(error);
       } finally {
         clearForm();
         setLoading(false);
       }
-      //alert(JSON.stringify([name, email, phoneNumber, text], null, 2));
-      //clearForm();
     }
   };
 
