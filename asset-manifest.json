@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/secret-project/static/css/main.e8c30944.css",
-    "main.js": "/secret-project/static/js/main.96889b30.js",
+    "main.js": "/secret-project/static/js/main.efbc3c4f.js",
     "static/js/404.d9df5ad4.chunk.js": "/secret-project/static/js/404.d9df5ad4.chunk.js",
     "static/js/357.4faeffaf.chunk.js": "/secret-project/static/js/357.4faeffaf.chunk.js",
     "static/css/65.124232cb.chunk.css": "/secret-project/static/css/65.124232cb.chunk.css",
@@ -13,7 +13,7 @@
     "static/media/Petro_Gr.jpg": "/secret-project/static/media/Petro_Gr.d9a45b34b3e2d6aead30.jpg",
     "index.html": "/secret-project/index.html",
     "main.e8c30944.css.map": "/secret-project/static/css/main.e8c30944.css.map",
-    "main.96889b30.js.map": "/secret-project/static/js/main.96889b30.js.map",
+    "main.efbc3c4f.js.map": "/secret-project/static/js/main.efbc3c4f.js.map",
     "404.d9df5ad4.chunk.js.map": "/secret-project/static/js/404.d9df5ad4.chunk.js.map",
     "357.4faeffaf.chunk.js.map": "/secret-project/static/js/357.4faeffaf.chunk.js.map",
     "65.124232cb.chunk.css.map": "/secret-project/static/css/65.124232cb.chunk.css.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.e8c30944.css",
-    "static/js/main.96889b30.js"
+    "static/js/main.efbc3c4f.js"
   ]
 }
