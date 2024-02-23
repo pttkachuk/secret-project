@@ -61,7 +61,6 @@ color: #fff;
 `
 
 export const NavList = styled.ul`
-//margin-left: auto;
 display: flex;
 align-items: center;
 text-align: center;
@@ -100,7 +99,4 @@ position: relative;
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-/* &:hover{
-  color: #FDDA00
-} */
 `;
