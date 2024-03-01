@@ -5,7 +5,6 @@ export const MapPageTitle = styled.h2`
     font-weight: 600;
     font-size: 28px;
     line-height: 1.2;
-    //text-align: center;
     padding: 20px 0 40px 0;
 `;
 
@@ -17,7 +16,6 @@ export const MapPageDesc = styled.p`
     font-weight: 400;
     font-size: 20px;
     line-height: 1.2;
-    //text-align: center;
 `;
 
 export const TextDiv = styled.div`

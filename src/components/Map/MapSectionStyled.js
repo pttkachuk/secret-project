@@ -11,8 +11,6 @@ export const StyledMapWrapper = styled.div`
   width: 100%;
   max-width: 1440px;
   padding: 20px;
-  //filter: blur(1px);
-  //outline: 1px solid red;
 `;
 
 export const GoogleMap = styled.div`

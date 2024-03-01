@@ -18,7 +18,6 @@ const movementTwoAnimation = keyframes`
    50% { transform: translate(50%, 20%) rotate(-200deg) scale(1.3);}`;
 
 export const Container = styled.div`
-	//background:#1F2024;
 	height: 450px;
 	display: flex;
 	flex-direction: row;
@@ -34,7 +33,6 @@ export const DivC = styled.div`
 	position:absolute;
 	width: 100%;
 	filter: blur(40px);
-   //background: rgba(255,255,255,0.1) 
 `;
 
 export const ShapeBlob = styled.div`

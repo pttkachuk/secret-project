@@ -13,7 +13,6 @@ export const ContactsDiv = styled.div`
     width: 100%;
     max-width: 1440px;
     padding: 20px;
-    //outline: 1px solid red;
     height: 450px;
     display: flex;
     align-items: center;
@@ -23,7 +22,6 @@ export const ContactsDiv = styled.div`
 
 export const MessageTitleDiv = styled.div`
 padding: 20px;
-//outline: 1px solid red;
 max-width: 350px;
 `;
 
@@ -35,7 +33,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-//outline: 1px solid red;
 `;
 
 export const ContactsTitle = styled.h2`
@@ -188,7 +185,6 @@ export const PhoneDiv = styled.div`
     width: 100%;
     max-width: 1440px;
     padding: 20px;
-    //outline: 1px solid red;
     height: 450px;
     display: flex;
     align-items: center;
@@ -204,7 +200,6 @@ color: #fff;
 `;
 
 export const PhoneTitleDiv = styled.div`
-//outline: 1px solid red;
 max-width: 350px;
 text-align: center;
 `;
@@ -261,7 +256,6 @@ padding: 10px;
 export const StyledPhoneList = styled.ul`
 margin: 0;
 padding: 0;
-//outline: 1px solid red;
 display: flex;
 flex-direction: column;
 gap: 20px;
