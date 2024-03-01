@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom';
 export const FooterWrapper = styled.div`
 height: 150px;
 padding: 40px 0 40px 0;
-//outline: 1px solid red;
 `;
 
 export const FooterDesc = styled.p`
