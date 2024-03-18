@@ -179,12 +179,13 @@ export const ShapeBlobThirteen = styled.div`
 	animation: ${transformAnimation} 10s ease-in-out infinite both alternate, ${movementTwoAnimation} 19s ease-in-out infinite both;`;
 //////////////////////////////////////////////
 export const HeroTitle = styled.h1`
+	text-align: center;
 	font-family: Montserrat;
 	font-size: 4em;
 	letter-spacing: 2px;
 	font-weight: 700;
 	color: #fff;
-	line-height: .9em;
+	line-height: 1.1em;
 	position: absolute;
 	z-index: 4;
 	text-shadow: 2px 3px 15px rgba(0,0,0,.15);`;
