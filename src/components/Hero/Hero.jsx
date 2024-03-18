@@ -38,7 +38,9 @@ const Hero = () => {
         <ShapeBlobTwelve />
         <ShapeBlobThirteen />
       </DivC>
-      <HeroTitle>Chiesa Evangelica Bergamo</HeroTitle>
+      <HeroTitle>
+        Chiesa Evangelica <br /> Parola Di Fede
+      </HeroTitle>
     </Container>
   );
 };
