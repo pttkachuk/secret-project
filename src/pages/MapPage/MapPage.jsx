@@ -15,9 +15,9 @@ const MapPage = () => {
         <MapPageTitle>Come trovarci</MapPageTitle>
         <MapPageDesc>
           La chiesa si trova in <br />
-          <span style={{ color: "#FDDA00" }}> NEW ADDRESS </span>
+          <span style={{ color: "#FDDA00" }}> via Carlo Serassi, 6B </span>
           <br />
-          NEW CITY
+          Bergamo
         </MapPageDesc>
         <IoIosArrowDown color="#FDDA00" size={30} />
       </TextDiv>
