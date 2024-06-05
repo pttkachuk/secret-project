@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/secret-project/static/css/main.e8c30944.css",
-    "main.js": "/secret-project/static/js/main.46916258.js",
+    "main.js": "/secret-project/static/js/main.3b996c3e.js",
     "static/js/404.e0202ffa.chunk.js": "/secret-project/static/js/404.e0202ffa.chunk.js",
-    "static/js/357.4e51fbb5.chunk.js": "/secret-project/static/js/357.4e51fbb5.chunk.js",
+    "static/js/357.6c1765fa.chunk.js": "/secret-project/static/js/357.6c1765fa.chunk.js",
     "static/css/65.124232cb.chunk.css": "/secret-project/static/css/65.124232cb.chunk.css",
     "static/js/65.518ef1a8.chunk.js": "/secret-project/static/js/65.518ef1a8.chunk.js",
     "static/js/787.b9ab6d2c.chunk.js": "/secret-project/static/js/787.b9ab6d2c.chunk.js",
@@ -13,9 +13,9 @@
     "static/media/Petro_Gr.jpg": "/secret-project/static/media/Petro_Gr.d9a45b34b3e2d6aead30.jpg",
     "index.html": "/secret-project/index.html",
     "main.e8c30944.css.map": "/secret-project/static/css/main.e8c30944.css.map",
-    "main.46916258.js.map": "/secret-project/static/js/main.46916258.js.map",
+    "main.3b996c3e.js.map": "/secret-project/static/js/main.3b996c3e.js.map",
     "404.e0202ffa.chunk.js.map": "/secret-project/static/js/404.e0202ffa.chunk.js.map",
-    "357.4e51fbb5.chunk.js.map": "/secret-project/static/js/357.4e51fbb5.chunk.js.map",
+    "357.6c1765fa.chunk.js.map": "/secret-project/static/js/357.6c1765fa.chunk.js.map",
     "65.124232cb.chunk.css.map": "/secret-project/static/css/65.124232cb.chunk.css.map",
     "65.518ef1a8.chunk.js.map": "/secret-project/static/js/65.518ef1a8.chunk.js.map",
     "787.b9ab6d2c.chunk.js.map": "/secret-project/static/js/787.b9ab6d2c.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.e8c30944.css",
-    "static/js/main.46916258.js"
+    "static/js/main.3b996c3e.js"
   ]
 }
