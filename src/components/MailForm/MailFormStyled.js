@@ -142,8 +142,8 @@ color: #d3d3d3;
 `;
 
 export const StyledTextArea = styled.textarea`
-//width: 100%;
-max-width: 380px;
+width: 100%;
+max-width: 375px;
 resize: none;
 background: transparent;
 border: 0;
