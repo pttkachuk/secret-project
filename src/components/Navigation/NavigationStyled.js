@@ -24,31 +24,15 @@ display: flex;
 text-decoration: none;
 background-color: transparent;
 color: #fff;
-transition: 0.3s;
+//transition: 0.3s;
 border: none;
 cursor: pointer;
 position: relative;
 
-&::before{
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    inset: 0 0 0 0;
-    background: #0085FF;
-    z-index: -1;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform .3s ease;
+:hover{
+    scale: 0.9;
 }
 
-&:hover::before{
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
 `;
 
 export const Home = styled.h2`
@@ -75,27 +59,11 @@ font-family: Montserrat;
 font-weight: 400;
 color: #fff;
 text-decoration: none;
-transition: 0.3s;
-position: relative;
+//transition: 0.3s;
+//position: relative;
 
-&::before{
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    inset: 0 0 0 0;
-    background: #0085FF;
-    z-index: -1;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform .3s ease;
+:hover{
+    scale: 0.9;
 }
 
-&:hover::before{
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
 `;
