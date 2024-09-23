@@ -9,27 +9,31 @@ import {
   StyledNavContainer,
   StyledNavLink,
 } from "./NavigationStyled";
+import { useTranslation } from "react-i18next";
+import LangSelect from "../LangSelect/LangSelect";
 
 const Navigation = () => {
+  const { t } = useTranslation();
   return (
     <StyledHeader>
       <StyledNavContainer>
         <LogoDiv to="/">
           <PiChurchLight size={26} />
-          <Home>Parola di Fede</Home>
+          <Home>{t("logo")}</Home>
         </LogoDiv>
+        <LangSelect />
         <NavList>
           <NavItem>
-            <StyledNavLink to="/">Chi siamo</StyledNavLink>
+            <StyledNavLink to="/">{t("who we are")}</StyledNavLink>
           </NavItem>
           <NavItem>
-            <StyledNavLink to="">Culti</StyledNavLink>
+            <StyledNavLink to="">{t("worship")}</StyledNavLink>
           </NavItem>
           <NavItem>
-            <StyledNavLink to="/location">Dove siamo</StyledNavLink>
+            <StyledNavLink to="/location">{t("location")}</StyledNavLink>
           </NavItem>
           <NavItem>
-            <StyledNavLink to="/contacts">Contattaci</StyledNavLink>
+            <StyledNavLink to="/contacts">{t("contacts")}</StyledNavLink>
           </NavItem>
         </NavList>
       </StyledNavContainer>
