@@ -17,25 +17,27 @@ import {
   FaYoutubeSquare,
   FaInstagramSquare,
 } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer>
       <FooterWrapper>
         <FooterCont>
           <div>
             <FooterDesc>
-              Gesu ti ama.
+              {t("footer")}
               <br />
-              Ricordati cosa Lui ha fatto per te.
+              {t("footer1")}
             </FooterDesc>
             <CopyrightText>
-              © 2024. Parola di Fede. Bergamo.{" "}
-              <LinkToContacts to="/contacts">Contattaci</LinkToContacts>
+              {t("copyright")}{" "}
+              <LinkToContacts to="/contacts">{t("contact us")}</LinkToContacts>
             </CopyrightText>
           </div>
           <SocialDiv>
-            <SocialDesc>Nostri social</SocialDesc>
+            <SocialDesc>{t("social")}</SocialDesc>
             <IconsContainer>
               <Instagram
                 href="https://www.instagram.com/bergamo_church/"
