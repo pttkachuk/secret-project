@@ -1,45 +1,8 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
+import { languages } from './languages';
 
-const resources = {
-    en: {
-        translation: {
-            "logo": "Word of Faith",
-            "who we are": "Who we are",
-            "worship": "Worship Meetings",
-            "location": "Location",
-            "contacts": "Contacts"
-        }
-    },
-    it: {
-        translation: {
-            "logo": "Parola di Fede",
-            "who we are": "Chi siamo",
-            "worship": "Riunioni di Culto",
-            "location": "Dove siamo",
-            "contacts": "Contatti"
-        }
-    },
-    ru: {
-        translation: {
-            "logo": "Слово Веры",
-            "who we are": "О нас",
-            "worship": "Богослужения",
-            "location": "Адрес",
-            "contacts": "Контакты"
-        }
-    },
-    ua: {
-        translation: {
-            "logo": "Слово Віри",
-            "who we are": "Про нас",
-            "worship": "Богослужіння",
-            "location": "Адреса",
-            "contacts": "Контакти"
-        }
-    },
-    // Aggiungi altre lingue se necessario
-};
+const resources = languages
 
 i18n
     .use(initReactI18next)
