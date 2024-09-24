@@ -18,8 +18,10 @@ import {
   ShapeBlobTwelve,
   ShapeBlobTwo,
 } from "./HeroStyled";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
+  const { t } = useTranslation();
   return (
     <Container>
       <DivC>
@@ -39,7 +41,7 @@ const Hero = () => {
         <ShapeBlobThirteen />
       </DivC>
       <HeroTitle>
-        Chiesa Evangelica <br /> Parola Di Fede
+        {t("hero")} <br /> {t("hero1")}
       </HeroTitle>
     </Container>
   );
