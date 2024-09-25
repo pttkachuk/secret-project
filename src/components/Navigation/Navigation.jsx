@@ -21,7 +21,7 @@ const Navigation = () => {
           <PiChurchLight size={26} />
           <Home>{t("logo")}</Home>
         </LogoDiv>
-        <LangSelect />
+
         <NavList>
           <NavItem>
             <StyledNavLink to="/">{t("who we are")}</StyledNavLink>
@@ -36,6 +36,7 @@ const Navigation = () => {
             <StyledNavLink to="/contacts">{t("contacts")}</StyledNavLink>
           </NavItem>
         </NavList>
+        <LangSelect />
       </StyledNavContainer>
     </StyledHeader>
   );
