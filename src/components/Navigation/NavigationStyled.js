@@ -5,29 +5,31 @@ export const StyledHeader = styled.header`
 box-sizing: border-box;
 display: flex;
 justify-content: center;
-padding: 35px 0 35px 0;
+padding: 35px;
 `;
 
 export const StyledNavContainer = styled.div`
-  box-sizing: border-box;
   width: 100%;
   max-width: 1440px;
+  box-sizing: border-box;
   display: flex;
-  justify-content: space-between;
-  padding: 0 35px 0 35px;
+  justify-content: start;
+  align-items: center;
 `;
 
 export const LogoDiv = styled(NavLink)`
 margin: 0;
+//margin-right: 10px;
 padding: 0;
 display: flex;
+align-items: center;
 background-color: transparent;
 color: #fff;
 border: none;
 cursor: pointer;
 text-decoration: none;
 transition: 0.3s;
-
+//outline: solid 1px red
 `;
 
 
@@ -42,11 +44,13 @@ transition: 0.3s;
 `
 
 export const NavList = styled.ul`
+margin-left: auto;
+margin-right:5px;
 display: flex;
 align-items: center;
 text-align: center;
 gap: 15px;
-
+//outline: solid 1px red
 `;
 
 export const NavItem = styled.li`
@@ -62,6 +66,5 @@ color: #fff;
 text-decoration: none;
 transition: 0.3s;
 //position: relative;
-
 
 `;
