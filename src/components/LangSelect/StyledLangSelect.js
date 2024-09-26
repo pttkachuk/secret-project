@@ -25,7 +25,7 @@ export const selectStyles = {
         //transform: state.selectProps.menuIsOpen ? 'rotate(180deg)' : null,
     }),
     singleValue: styles => ({ ...styles, margin: '0' }),
-    input: styles => ({ ...styles, padding: '0' }),
+    //input: styles => ({ ...styles, padding: '0' }),
     menu: styles => ({
         ...styles,
         width: '100%',
