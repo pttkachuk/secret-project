@@ -11,10 +11,10 @@ const LangSelect = () => {
   };
 
   const langOptions = [
-    { value: "ua", label: "🇺🇦" },
-    { value: "ru", label: "🇷🇺" },
-    { value: "it", label: "🇮🇹" },
-    { value: "en", label: "🇬🇧" },
+    { value: "ua", label: "UKR" },
+    { value: "ru", label: "RUS" },
+    { value: "it", label: "ITA" },
+    { value: "en", label: "ENG" },
   ];
 
   return (
