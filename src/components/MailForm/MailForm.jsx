@@ -183,7 +183,7 @@ const MailForm = () => {
               />
               <div>
                 <StyledPhoneTitle>
-                  <b>Responsabile finanziario</b>
+                  <b>Diacono</b>
                   <br /> Ivan Tkachuk
                 </StyledPhoneTitle>
                 <StyledPhoneLink href="tel:+000000000000">
