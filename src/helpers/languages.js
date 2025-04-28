@@ -11,7 +11,7 @@ export const languages = {
             "footer": "Jesus loves you.",
             "footer1": "Remember what He has done for you.",
             "social": "Our socials",
-            "copyright": "© 2024. Word Of Faith. Bergamo.",
+            "copyright": "© 2025. Word Of Faith. Bergamo.",
             "contact us": "Contact us",
         }
     },
@@ -27,7 +27,7 @@ export const languages = {
             "footer": "Gesu ti ama.",
             "footer1": "Ricordati cosa Lui ha fatto per te.",
             "social": "Nostri social",
-            "copyright": "© 2024. Parola di Fede. Bergamo.",
+            "copyright": "© 2025. Parola di Fede. Bergamo.",
             "contact us": "Contattaci",
         }
     },
@@ -43,7 +43,7 @@ export const languages = {
             "footer": "Иисус любит тебя.",
             "footer1": "Помни, что Он сделал для тебя.",
             "social": "Наши соцсети",
-            "copyright": "© 2024. Слово Веры. Бергамо.",
+            "copyright": "© 2025. Слово Веры. Бергамо.",
             "contact us": "Cвязаться с нами",
         }
     },
@@ -59,7 +59,7 @@ export const languages = {
             "footer": "Ісус любить тебе.",
             "footer1": "Пам'ятай, що Він зробив для тебе.",
             "social": "Наші соцмережі",
-            "copyright": "© 2024. Слово Віри. Бергамо.",
+            "copyright": "© 2025. Слово Віри. Бергамо.",
             "contact us": "Зв'язатися з нами",
         }
     },
