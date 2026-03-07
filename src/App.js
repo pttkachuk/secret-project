@@ -27,7 +27,6 @@ function App() {
         </Suspense>
       </AnimatePresence>
       <footer>
-        {/* <Ticker /> */}
         <Footer />
       </footer>
 

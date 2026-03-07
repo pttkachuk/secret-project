@@ -100,9 +100,11 @@ const MailForm = () => {
               placeholder="Nome"
               required
             />
-            <StyledLabel htmlFor="name" className="form_label">
-              Nome
-            </StyledLabel>
+            {/*
+              <StyledLabel htmlFor="name" className="form_label">
+                Nome
+              </StyledLabel>
+            */}
           </InputDiv>
           <InputDiv>
             <StyledInput
@@ -116,9 +118,11 @@ const MailForm = () => {
               placeholder="E-mail"
               required
             />
-            <StyledLabel htmlFor="email" className="form_label">
-              E-mail
-            </StyledLabel>
+            {/*
+              <StyledLabel htmlFor="email" className="form_label">
+                E-mail
+              </StyledLabel>
+            */}
           </InputDiv>
           <InputDiv>
             <StyledInput
@@ -132,9 +136,9 @@ const MailForm = () => {
               placeholder="Telefono"
               required
             />
-            <StyledLabel htmlFor="tel" className="form_label">
+            {/*<StyledLabel htmlFor="tel" className="form_label">
               Telefono
-            </StyledLabel>
+            </StyledLabel>*/}
           </InputDiv>
           <StyledTextArea
             placeholder="Scrivi un messaggio"

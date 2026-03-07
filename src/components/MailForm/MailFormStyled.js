@@ -9,6 +9,7 @@ justify-content: center;
 `;
 
 export const ContactsDiv = styled.div`
+    //border:0.5px solid red;
     box-sizing: border-box;
     width: 100%;
     max-width: 1440px;
@@ -21,11 +22,15 @@ export const ContactsDiv = styled.div`
 `;
 
 export const MessageTitleDiv = styled.div`
+//border:0.5px solid red;
 padding: 20px;
 max-width: 350px;
 `;
 
 export const FormDiv = styled.div`
+//border:0.5px solid red;
+//background-color: #E0E0E0;
+border-radius: 16px;
 height: 100%;
 width: 100%;
 max-width: 450px;
@@ -52,42 +57,25 @@ font-weight: 400;
 color: #fff;
 transition: 0.3s;
 position: relative;
-
-&::before{
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    inset: 0 0 0 0;
-    background: #0085FF;
-    z-index: -1;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform .3s ease;
-}
-
-&:hover::before{
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
 `;
 
 /////////////////////////////////////////////////////////////
 
 export const InputDiv = styled.div`
+//border:0.5px solid blue;
 position: relative;
-padding: 15px 0 0;
+padding: 15px 0;
 width: 100%;
 max-width: 375px;
+
+background-color: transparent;
 `;
 
 export const StyledInput = styled.input`
+border:1px solid #d3d3d3;
+border-radius: 8px;
+padding: 5px 0 5px 5px;
 width: 100%;
-margin-bottom: 10px;
-padding: 7px 0;
 
 font-family: Montserrat;
 font-weight: 400;
@@ -95,13 +83,10 @@ font-size: 14px;
 color: #fff;
 outline: 0;
 background: transparent;
-
-border:0;
-border-bottom: 1px solid #d3d3d3;
 transition: 0.2s;
 
 &::placeholder{
-    color: transparent;
+    color: #fff;
 }
 
 &:placeholder-shown ~ .form_label{
@@ -123,6 +108,7 @@ top: 20px;
   padding-bottom: 6px;  
   font-weight: 400;
   border-width: 1px;
+  //border-radius: 8px;
   border-image: linear-gradient(to right, #4EAEFF,#FDDA00);
   border-image-slice: 1;
 }
@@ -183,6 +169,7 @@ cursor: pointer;
 /////////////////////////////////////////////////////////////
 
 export const PhoneDiv = styled.div`
+//border:0.5px solid red;
     box-sizing: border-box;
     width: 100%;
     max-width: 1440px;
@@ -215,26 +202,6 @@ color: #fff;
 transition: 0.3s;
 position: relative;
 
-&::before{
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    inset: 0 0 0 0;
-    background: #0085FF;
-    z-index: -1;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform .3s ease;
-}
-
-&:hover::before{
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
 `;
 
 export const StyledPhoneTitle = styled.p`
